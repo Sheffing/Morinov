@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  height: 40px;
+}
+
+.header {
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.result {
+  margin: 0 auto;
+}
+
+.main {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 1700px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 385px;
+  height: 585px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  padding: 15px;
+}
+
+.image {
+  height: 200px;
+  border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
